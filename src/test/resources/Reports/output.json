@@ -1,0 +1,208 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13129191900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginstep.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "to verify adactin login details",
+        "description": "",
+        "id": "to-verify-adactin-website;to-verify-adactin-login-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 144967300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginstep.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4608727000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "to enter into the adactin url",
+            "match": {
+              "location": "loginstep.to_enter_into_the_adactin_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 152702000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "to enter login \"SubashS96\" and \"8MI86Z\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SubashS96\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"8MI86Z\"",
+                  "offset": 31
+                }
+              ],
+              "location": "loginstep.to_enter_login_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 786116500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "to click the login button",
+            "match": {
+              "location": "loginstep.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#location\"}\n  (Session info: chrome\u003d102.0.5005.115)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DHANRAJ\u0027, ip: \u0027192.168.43.254\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_321\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\W2IN\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a901052eec9ab23738e4d0fd16cff933\n*** Element info: {Using\u003did, value\u003dlocation}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.stepdefn.loginstep.enter_the(loginstep.java:75)\r\n\tat ✽.enter the \"Sydney\",\"Hotel Sunshine\",\"Standard\",\"1 - One\",\"16/11/2021\",\"17/11/2021\",\"2\" and \"1\"(src/test/resources/feature/login.feature:7)\r\n",
+              "duration": 10038147000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "enter the \"Sydney\",\"Hotel Sunshine\",\"Standard\",\"1 - One\",\"16/11/2021\",\"17/11/2021\",\"2\" and \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"16/11/2021\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"17/11/2021\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 91
+                }
+              ],
+              "location": "loginstep.enter_the(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10600,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "select hotel and click continue",
+            "match": {
+              "location": "loginstep.select_hotel_and_click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5400,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "enter the \"Subash\",\"Karan\",\"Chennai\",\"1234567890123456\",\"VISA\",\"March\",\"2022\" and \"263\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Subash\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Karan\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"1234567890123456\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"March\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"263\"",
+                  "offset": 82
+                }
+              ],
+              "location": "loginstep.enter_the_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4500,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user should get the order id",
+            "match": {
+              "location": "loginstep.user_should_get_the_order_id()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "to verify adactin website",
+    "description": "",
+    "id": "to-verify-adactin-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/login.feature",
+    "tags": []
+  }
+]
